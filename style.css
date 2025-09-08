@@ -35,6 +35,14 @@
     position: relative;
 }
 
+.signup-body p i{
+    position: absolute;
+    top: 45%;
+    right: 16px;
+    color: #000;
+    font-size: 20px;
+}    
+
 .signup-body p span{
     margin-top: 18px;
     font-weight: 600;
@@ -44,6 +52,7 @@
 .signup-body p label{
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .signup-body p input{

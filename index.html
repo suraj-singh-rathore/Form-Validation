@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Validation in JavaScript</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
        <div class="container">
@@ -17,15 +18,20 @@
                     <p>
                     <label for="name">Full Name</label>
                     <input type="text" placeholder="Type Name Here" id="name">
+                    <i class="fa-solid"></i>
                     <span id="nameError"></span>
                     </p>
                     <p>
                     <label for="email">Email</label>
                     <input type="email" placeholder="xyz@gmail.com" id="email">
+                    <i class="fa-solid"></i>
+                    <span id="emailError"></span>
                     </p>
                     <p>
                     <label for="password">Password</label>
                     <input type="password" placeholder="at least 8 character" id="password">
+                    <i class="fa-solid"></i>
+                    <span id="passwordError"></span>
                     </p>
                     <p>
                         <input type="submit" value="Create Account" id="submitBtn">
